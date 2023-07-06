@@ -64,4 +64,25 @@ userRouter.post("/login", async (req, res) => {
     res.status(400).send({ msg: error.message });
   }
 });
+
+userRouter.get("/user/:id", async (req, res) => {
+  const { id } = req.params;
+  try {
+    let user = await UserModel.findById(id);
+    res.status(200).send({ user });
+  } catch (error) {
+    res.status(400).send({ msg: error.message });
+  }
+});
+
+userRouter.patch("/user/:id", async (req, res) => {
+  const { id } = req.params;
+  try {
+    let user = await UserModel.findByIdAndUpdate(id,req.body);
+    res.status(200).send({ user });
+  } catch (error) {
+    res.status(400).send({ msg: error.message });
+  }
+});
+
 module.exports = { userRouter };
