@@ -35,4 +35,33 @@ userRouter.post("/register", dateLogger, async (req, res) => {
   }
 });
 
+
+userRouter.post("/login", async (req, res) => {
+  const { email, password } = req.body;
+
+  let user = await UserModel.find({ email });
+  try {
+    if (user.length < 1) {
+      res.status(200).send({ msg: "User Does Not Exists" });
+    } else {
+      bcrypt.compare(password, user[0].password, async (error, result) => {
+        if (error) {
+          res.status(200).send({ msg: error });
+        } else if (result === true) {
+          jswt.sign({ id: user[0]._id }, "aman", async (err, token) => {
+            if (err) {
+              res.status(200).send({ msg: error });
+            } else {
+              res.status(200).send({ msg: "User LoggedIn Succesfully", token });
+            }
+          });
+        } else {
+          res.status(200).send({ msg: "Password Is Wrong" });
+        }
+      });
+    }
+  } catch (error) {
+    res.status(400).send({ msg: error.message });
+  }
+});
 module.exports = { userRouter };
