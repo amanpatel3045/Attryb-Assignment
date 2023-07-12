@@ -19,7 +19,7 @@ Live Demo Link: https://amanbuyc.netlify.app/
 ### Search Drawer
 ![Screenshot (129)](https://i.ibb.co/MC9qT83/Screenshot-704.png)
 
-Add Deal Page
+### Add Deal Page
 ![Screenshot (128)](https://i.ibb.co/TYXmcfN/Screenshot-705.png)
 
 
