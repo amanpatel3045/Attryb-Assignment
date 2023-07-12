@@ -11,7 +11,9 @@ We hope this brief overview has provided you with a glimpse of the platform's ca
 
 Live Demo Link: https://amanbuyc.netlify.app/
 
-Home Page
+## Image Preview 
+
+### Home Page Image ↓
 ![Screenshot (128)](https://i.ibb.co/0jp089p/Screenshot-703.png)
 
 Search Drawer
