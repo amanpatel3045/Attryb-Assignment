@@ -1,3 +1,4 @@
+# Attryb Buy Car
 Attryb Buy Cars is an online platform dedicated to the trade of pre-owned vehicles. Car dealers have the opportunity to showcase their second-hand inventory on buycars.com. Prospective buyers can browse through the available listings and make purchases directly through the website.
 
 To experience the functionality of the platform, you can access the live demo by visiting the following link:https://amanbuyc.netlify.app/. This user-friendly application allows you to effortlessly list your own second-hand cars from the comfort of your home. Simply click on the provided URL to visit the buycars platform.
@@ -11,6 +12,7 @@ We hope this brief overview has provided you with a glimpse of the platform's ca
 Live Demo Link: https://amanbuyc.netlify.app/
 
 Home Page
+  <img src="https://i.ibb.co/0jp089p/Screenshot-703.png" " alt="Home Page">
 
 Search Drawer
 
