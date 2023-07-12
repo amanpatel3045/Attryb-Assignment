@@ -22,10 +22,9 @@ Live Demo Link: https://amanbuyc.netlify.app/
 ### Add Deal Page
 ![Screenshot (128)](https://i.ibb.co/TYXmcfN/Screenshot-705.png)
 
-
-Expanded Deal Page
+### Expanded Deal Page
 Please note that you can only edit and delete details of the cars you have listed as a dealer. You won't have the ability to modify or delete information about other cars.
-![Screenshot (128)](https://i.ibb.co/MS33S9r/Screenshot-706.png")
+![Screenshot (128)](https://i.ibb.co/MS33S9r/Screenshot-706.png)
 
 Signup Page
 ![Screenshot (128)](https://i.ibb.co/0jp089p/Screenshot-703.png)
